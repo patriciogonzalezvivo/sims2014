@@ -36,9 +36,9 @@ Students will complete field trips and collect observations of natural patterns 
 |	 15  | 12/10 | FINAL PROJECT                             |
 
 ## Final Grade Calculation
-5% participation10% attendance 
-50% daily homework 
-15% mid term20% final project
+* 5% participation* 10% attendance 
+* 50% daily homework 
+* 15% mid term* 20% final project
 
 ## Materials and Supplies
 These course will be based on [openFrameworks](http://openframeworks.cc/) C++ toolkit and will use [GitHub.com](https://github.com/) as the online platform to share code, research notes and papers and deliver homework.
