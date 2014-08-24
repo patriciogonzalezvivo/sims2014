@@ -1,8 +1,8 @@
-
+ 
 
 **Creative Coding** - 7040 - PGTE 5566 - B
 
-Welcome to **Simulation Studio FALL 2014**, [here](https://github.com/patriciogonzalezvivo/SimStudio2014) you will find the class material.
+Welcome to **Simulation Studio FALL 2014**, [here](https://github.com/patriciogonzalezvivo/sims2014) you will find the class material.
 
 ## Course Description
 This studio course will focus on computer simulation algorithms. Students will practice different techniques to improve their ability to observe and think algorithmically. 
@@ -23,11 +23,11 @@ Students will complete field trips and collect observations of natural patterns 
 
 | WEEK | DATE  | TOPIC                                     |
 |:----:|:-----:|:------------------------------------------|
-|  01  | 08/27 | INTRODUCTION: setup and Review of OOP     |
-|  02  | 09/03 | Physics Simulation: Force Vectors         |
-|  03  | 09/10 | Physics Simulation: Attraction&Repulsion  |         
+|  01  | 08/27 | Setup, Principles of OOP and Motion       |
+|  02  | 09/03 | Oscillation and trigonometry review	       |
+|  03  | 09/10 | Attraction&Repulsion forces               |         
 |  04  | 09/17 | Case Study: Flocking Simulation           |
-|  05  | 09/24 | Physics Simulation: Springs               |
+|  05  | 09/24 | Springs                                   |
 |  06  | 10/01 | MIDTERM PROJECT                           |
 |  07  | 10/08 | Path Following                            |
 |  08  | 10/15 | Flow Field and Noise                      |
@@ -39,7 +39,10 @@ Students will complete field trips and collect observations of natural patterns 
 |  14  | 12/03 | Final project workshop                    |
 |  15  | 12/10 | FINAL PROJECT                             |
 
-## Learning OutcomesBy the successful completon of this course, students will be able to:1. Be able to compile and run their own c++ programs in openFrameworks2. Have an understanding of how real world physics translate to computer simulations 
+## Learning Outcomes
+By the successful completon of this course, students will be able to:
+1. Be able to compile and run their own c++ programs in openFrameworks
+2. Have an understanding of how real world physics translate to computer simulations 
 3. Be comfortable talking about your work in front of other students
 
 ## Final Grade Calculation
@@ -102,12 +105,16 @@ Satisfactory completion of a course is considered to be a grade of B or higher.
 - GM	Grade missing for an individual
 
 Grades of D are not used in graduate level courses.
- ### Grade of W
-The grade of W may be issued by the Office of the Registrar to a student who officially withdraws from a course within the applicable deadline. There is no academic penalty, but the grade will appear on the student transcript. A grade of W may also be issued by an instructor to a graduate student (except at Parsons and Mannes) who has not completed course requirements nor arranged for an Incomplete. 
+
+### Grade of W
+The grade of W may be issued by the Office of the Registrar to a student who officially withdraws from a course within the applicable deadline. There is no academic penalty, but the grade will appear on the student transcript. A grade of W may also be issued by an instructor to a graduate student (except at Parsons and Mannes) who has not completed course requirements nor arranged for an Incomplete.
+
 ### Grade of WF
-The grade of WF is issued by an instructor to a student (all undergraduates and all graduate students) who has not attended or not completed all required work in a course but did not officially withdraw before the withdrawal deadline. It differs from an “F,” which would indicate that the student technically completed requirements but that the level of work did not qualify for a passing grade. The WF is equivalent to an F in calculating the grade point average (zero grade points), and no credit is awarded. 
+The grade of WF is issued by an instructor to a student (all undergraduates and all graduate students) who has not attended or not completed all required work in a course but did not officially withdraw before the withdrawal deadline. It differs from an “F,” which would indicate that the student technically completed requirements but that the level of work did not qualify for a passing grade. The WF is equivalent to an F in calculating the grade point average (zero grade points), and no credit is awarded.
+
 ### Grades of Incomplete 
-The grade of I, or temporary incomplete, may be granted to a student under unusual and extenuating circumstances, such as when the student’s academic life is interrupted by a medical or personal emergency. This mark is not given automatically but only upon the student’s request and at the discretion of the instructor. A Request for Incomplete form must be completed and signed by student and instructor. The time allowed for completion of the work and removal of the “I” mark will be set by the instructor with the following limitations: [You should include one the following standards, depending on the level of your course]. 
+The grade of I, or temporary incomplete, may be granted to a student under unusual and extenuating circumstances, such as when the student’s academic life is interrupted by a medical or personal emergency. This mark is not given automatically but only upon the student’s request and at the discretion of the instructor. A Request for Incomplete form must be completed and signed by student and instructor. The time allowed for completion of the work and removal of the “I” mark will be set by the instructor with the following limitations: [You should include one the following standards, depending on the level of your course].
+
 **Graduate students** Work must be completed no later than one year following the end of the class. Grades of “I” not revised in the prescribed time will be recorded as a final grade of “WF” (for Parsons and Mannes graduate students) or “N” (for all other graduate students) by the Office of the Registrar. The grade of “N” does not affect the GPA but does indicate a permanent incomplete. 
 
 ### Divisional, Program and Class Policies
