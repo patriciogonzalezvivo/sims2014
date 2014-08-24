@@ -25,7 +25,7 @@ Students will complete field trips and collect observations of natural patterns 
 |:----:|:-----:|:------------------------------------------|
 |  01  | 08/27 | Setup, Principles of OOP and Motion       |
 |  02  | 09/03 | Oscillation and trigonometry review	       |
-|  03  | 09/10 | Attraction&Repulsion forces               |         
+|  03  | 09/10 | Attraction & Repulsion forces             |         
 |  04  | 09/17 | Case Study: Flocking Simulation           |
 |  05  | 09/24 | Springs                                   |
 |  06  | 10/01 | MIDTERM PROJECT                           |
@@ -40,27 +40,28 @@ Students will complete field trips and collect observations of natural patterns 
 |  15  | 12/10 | FINAL PROJECT                             |
 
 ## Learning Outcomes
-By the successful completon of this course, students will be able to:
-1. Be able to compile and run their own c++ programs in openFrameworks
-2. Have an understanding of how real world physics translate to computer simulations 
-3. Be comfortable talking about your work in front of other students
+By the successful completion of this course, students will be able to:
+1. Be able to compile and run their own C++ programs in openFrameworks.
+2. Have an understanding of how real world physics translates to computer simulations.
+3. Be comfortable talking about their work in front of other students.
 
 ## Final Grade Calculation
-* 5% participation
-* 10% attendance 
-* 50% daily homework 
-* 15% mid term
-* 20% final project
+* 10% participation
+* 15% attendance 
+* 15% homework 
+* 30% mid term
+* 30% final project
 
 ## Materials and Supplies
-These course will be based on [openFrameworks](http://openframeworks.cc) C++ toolkit and will use [GitHub.com](https://github.com/) as the online platform to share code, research notes and papers and deliver homework (Please read and follow the [setup](Setup.md) document BEFORE coming to class)  
+This course will be based on [openFrameworks](http://openframeworks.cc) C++ toolkit and will use [GitHub.com](https://github.com/) as the online platform to share code, research notes and papers and deliver homework. (Please read and follow the [setup](Setup.md) document BEFORE coming to class.)  
 
-This course follow most of the content of the old Algorithmic Animation syllabus taught by Zach Lieberman. You will find help and inspiration in the examples contain in the following repositories:
+You may find additional help and inspiration in the examples contained in the following repositories:
 
 * [Algo2012](http://github.com/ofZach/algo2012) by [Zach Lieberman](http://thesystemis.com/)
 * [Algo2013](https://github.com/cwhitney/algo2013) by [Charly Whitney](http://www.sharkbox.com/)
 
-Because we will code in C++ language the sooner you get confortable with it the better. There is A LOT of extra material you can use for that, personally I like the following resources:
+##### C++ and oF
+Because we will code in C++, the sooner you get comfortable with it the better. There is A LOT of helpful extra material; personally I like the following resources:
 
 * ofBook: [Chapter 02: C++](https://github.com/openframeworks/ofBook/blob/master/02_cplusplus_basics/chapter.md) by [Josh Nimoy](http://jtnimoy.com/), [Chapter 03: OOP](https://github.com/openframeworks/ofBook/blob/master/03a_OOPs!/chapter.md), [Chapter 16: Memory](https://github.com/openframeworks/ofBook/blob/master/16_memory/chapter.md) by [Arturo Castro](http://arturocastro.net/)
 
@@ -76,9 +77,10 @@ As regular consulting material you will probably want to have the following link
 
 * [OpenFrameworks IRC Channel](http://webchat.freenode.net/?channels=openframeworks&uio=MT1mYWxzZSY5PXRydWUmMTE9Mjk39)
 
-* StackOverFlow [C++](http://stackoverflow.com/questions/tagged/c%2b%2b), [CodeBlocks](http://stackoverflow.com/questions/tagged/codeblocks) & [Xcode](http://stackoverflow.com/questions/tagged/xcode) (there is one openFrameworks tags but is better if you use the OF-forum for that)
+* StackOverFlow [C++](http://stackoverflow.com/questions/tagged/c%2b%2b), [CodeBlocks](http://stackoverflow.com/questions/tagged/codeblocks) & [Xcode](http://stackoverflow.com/questions/tagged/xcode) (There is an openFrameworks tag, but is better if you use the OF-forum for questions.)
 
-There is a huge amount of papers, books and examples on line about algorithms and simulation. Not all of them are in C++, but hopefully you will train yourself to interpret and translate them. Here are some friendly approaches to it.
+##### Algorithms and Simulation
+There are a huge number of papers, books and examples online about algorithms and simulation. Not all of them are in C++, but hopefully you will train yourself to interpret and translate them. Here are some friendly approaches:
 
 * [Nature of Code](http://natureofcode.com/book/) by Daniel Shiffman
 
@@ -86,11 +88,11 @@ There is a huge amount of papers, books and examples on line about algorithms an
 
 * [Generative Design](http://www.amazon.com/dp/1616890770/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=2P8RIIKRMUEMF&coliid=I5PWJK09L1FVH) by Hartmut Bohnacker, Benedikt Gross, Julia Laub and Claudius Lazzeroni
 
-* [The Computational Beauty of Nature](http://www.amazon.com/gp/product/0262561271/ref=oh_aui_detailpage_o07_s00?ie=UTF8&psc=1) by Gary William Flake ( [here](https://github.com/gwf/CBofN) is the code examples of the book)
+* [The Computational Beauty of Nature](http://www.amazon.com/gp/product/0262561271/ref=oh_aui_detailpage_o07_s00?ie=UTF8&psc=1) by Gary William Flake ( [here](https://github.com/gwf/CBofN) are the code examples from the book)
 
 * [The Algorithmic Beauty of Plants](http://algorithmicbotany.org/papers/abop/abop.pdf) by Przemyslaw Prusinkiewicz and Aristid Lindenmayer
 
-## Grading Standars
+## Grading Standards
 
 - A	Work of exceptional quality 
 - A-	Work of high quality
@@ -113,14 +115,14 @@ The grade of W may be issued by the Office of the Registrar to a student who off
 The grade of WF is issued by an instructor to a student (all undergraduates and all graduate students) who has not attended or not completed all required work in a course but did not officially withdraw before the withdrawal deadline. It differs from an “F,” which would indicate that the student technically completed requirements but that the level of work did not qualify for a passing grade. The WF is equivalent to an F in calculating the grade point average (zero grade points), and no credit is awarded.
 
 ### Grades of Incomplete 
-The grade of I, or temporary incomplete, may be granted to a student under unusual and extenuating circumstances, such as when the student’s academic life is interrupted by a medical or personal emergency. This mark is not given automatically but only upon the student’s request and at the discretion of the instructor. A Request for Incomplete form must be completed and signed by student and instructor. The time allowed for completion of the work and removal of the “I” mark will be set by the instructor with the following limitations: [You should include one the following standards, depending on the level of your course].
+The grade of I, or temporary incomplete, may be granted to a student under unusual and extenuating circumstances, such as when the student’s academic life is interrupted by a medical or personal emergency. This mark is not given automatically but only upon the student’s request and at the discretion of the instructor. A Request for Incomplete form must be completed and signed by student and instructor. The time allowed for completion of the work and removal of the “I” mark will be set by the instructor with the following limitations: 
 
 **Graduate students** Work must be completed no later than one year following the end of the class. Grades of “I” not revised in the prescribed time will be recorded as a final grade of “WF” (for Parsons and Mannes graduate students) or “N” (for all other graduate students) by the Office of the Registrar. The grade of “N” does not affect the GPA but does indicate a permanent incomplete. 
 
 ### Divisional, Program and Class Policies
 
 ● **Responsibility**
-Students are responsible for all assignments, even if they are absent.  Late assignments, failure to complete the assignments for class discussion and/or critique, and lack of preparedness for in-class discussions, presentations and/or critiques will jeopardize your successful completion of this course.  
+Students are responsible for all assignments, even if they are absent. Late assignments, failure to complete the assignments for class discussion and/or critique, and lack of preparedness for in-class discussions, presentations and/or critiques will jeopardize your successful completion of this course.  
 
 ● **Participation** 
 Class participation is an essential part of class and includes: keeping up with reading, assignments, projects, contributing meaningfully to class discussions, active participation in group work, and coming to class regularly and on time.  
@@ -129,14 +131,6 @@ Class participation is an essential part of class and includes: keeping up with 
 Parsons’ attendance guidelines were developed to encourage students’ success in all aspects of their academic programs. Full participation is essential to the successful completion of coursework and enhances the quality of the educational experience for all, particularly in courses where group work is integral; thus, Parsons promotes high levels of attendance. Students are expected to attend classes regularly and promptly and in compliance with the standards stated in this course syllabus. 
 
 While attendance is just one aspect of active participation, absence from a significant portion of class time may prevent the successful attainment of course objectives. A significant portion of class time is generally defined as the equivalent of three weeks, or 20%, of class time. Lateness or early departure from class may be recorded as one full absence. Students may be asked to withdraw from a course if habitual absenteeism or tardiness has a negative impact on the class environment.
-
-Whether the course is a lecture, seminar or studio, faculty will assess each student’s performance against all of the assessment criteria in determining the student’s final grade.
-
-● **Blackboard or Canvas**
-Use of Blackboard may be an important resource for this class. Students should check it for announcements before coming to class each week.  
-
-● **Delays** 
-In rare instances, I may be delayed arriving to class.  If I have not arrived by the time class is scheduled to start, you must wait a minimum of thirty minutes for my arrival.  In the event that I will miss class entirely, a sign will be posted at the classroom indicating your assignment for the next class meeting.
 
 ● **Electronic Devices** 
 The use of electronic devices (phones, tablets, laptops, cameras, etc.) is permitted when the device is being used in relation to the course's work. All other uses are prohibited in the classroom and devices should be turned off before class starts.

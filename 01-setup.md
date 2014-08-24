@@ -2,13 +2,13 @@
 
 ## 1. Download and Install openFrameworks and IDE
 
-Go to [openFrameworks.cc/download](http://openframeworks.cc/download/) and download the right OF version for your platform. Close to it you will find a nice tutorial of how to install it. Please install the ```openFrameworks``` folder on your Desktop in order everybody have it in the same place ```~/Desktop/openFrameworks```. 
+Go to [openFrameworks.cc/download](http://openframeworks.cc/download/) and download the right OF version for your platform. Close to it you will find a nice tutorial of how to install it. Please install the ```openFrameworks``` folder on your Desktop so that everyone has it in the same place ```~/Desktop/openFrameworks```. 
 
-OpenFrameworks is essentially a toolbox, you need to get familiarize with it tools, for that you should spend a significative amount of time compiling, checking and understanding each single example.
+OpenFrameworks is essentially a toolbox, you need to become familiar with its tools. To become familiar with oF, you should spend a significative amount of time compiling, checking and understanding each single example.
 
-A really good material you should read to know OF's folder structure together with your IDE interface is the [Chapter 03: Setup and Project Structure](https://github.com/openframeworks/ofBook/blob/master/03_setup_and_project_structure/chapter.md) of the OFBOOK.
+An important material you need to read to know OF's folder structure together with your IDE interface is [Chapter 03: Setup and Project Structure](https://github.com/openframeworks/ofBook/blob/master/03_setup_and_project_structure/chapter.md) from the OFBOOK.
 
-## 2. Install Git and these repository
+## 2. Install Git and this repository
 
 On a Linux Machine you just need to type:
 
@@ -25,13 +25,13 @@ According to their website you just need to open the terminal and type:
 
 	brew install git-core
 
-## 3. Clone these repository
+## 3. Clone this repository
 
-Go to you openFrameworks root dir:
+Go to your openFrameworks root directory:
 
 	cd ~/Desktop/openFrameworks
 	
-And clone these directory
+And clone this directory
 
 	git clone http://github.com/patriciogonzalezvivo/sims2014.git
 
