@@ -23,7 +23,7 @@ According to their website you just need to open the terminal and type:
 
 ### 2.2. Then install Git
 
-	brew install git-core
+	brew install git
 
 ## 3. Clone this repository
 
