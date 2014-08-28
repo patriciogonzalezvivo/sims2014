@@ -13,3 +13,7 @@
 * [Chapter 03: a. OOP](https://github.com/openframeworks/ofBook/blob/master/03a_OOPs!/chapter.md) from the ofBook
 
 * [Chapter 04: Animation](https://github.com/openframeworks/ofBook/blob/master/04_animation/chapter.md) by Zachary Lieberman  from the ofBook (until **Function based movement**) 
+
+## Class Notes
+
+![Kynd’s graphic](https://farm8.staticflickr.com/7346/9546075099_18ccc66a2d_o_d.png)
