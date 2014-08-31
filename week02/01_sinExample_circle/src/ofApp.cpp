@@ -20,13 +20,21 @@ void ofApp::update(){
 }
 
 //--------------------------------------------------------------
-void ofApp::draw(){    
+void ofApp::draw(){
 	
-	float sinOfTime = sin( ofGetElapsedTimef() * 2 );
-	float sinOfTimeMapped = ofMap( sinOfTime, -1, 1, 50, 80);
+	float xorig = mouseX;
+	float yorig = mouseY;
+	float radius = 50;
+	float angle = ofGetElapsedTimef()*5;
+	
+	float x = xorig + radius * cos(angle);
+	float y = yorig + radius * -sin(angle);
+	
+	ofSetRectMode(OF_RECTMODE_CENTER);
+	ofSetColor(255,0,0);
+	ofRect(x,y,30,30);
+	
 
-	ofSetColor(255, 0, 0);
-	ofCircle(400,400, sinOfTimeMapped);
 }
 
 //--------------------------------------------------------------

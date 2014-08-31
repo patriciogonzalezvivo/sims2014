@@ -14,7 +14,6 @@
 * Normal
 * Xenon
 * Cartesians/Polar coordinates
-
 * PI 
 
 ![PI](http://i.imgur.com/vVcc2OP.gif)

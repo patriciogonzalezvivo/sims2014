@@ -2,31 +2,41 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
+
 	
 	ofSetVerticalSync(true);
 	
-	ofBackground(0,0,0);
+	ofBackground(0);
 	
-	ofSetCircleResolution(100);
-
+	
+	
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
 	
 	
+	//for (int i = 0; i < points.size(); i++){
+//		points[i].x += ofRandom(-1,1);
+//		points[i].y += ofRandom(-1,1);
+//	}
 	
 
 }
 
 //--------------------------------------------------------------
-void ofApp::draw(){    
-	
-	float sinOfTime = sin( ofGetElapsedTimef() * 2 );
-	float sinOfTimeMapped = ofMap( sinOfTime, -1, 1, 50, 80);
+void ofApp::draw(){
 
-	ofSetColor(255, 0, 0);
-	ofCircle(400,400, sinOfTimeMapped);
+	ofNoFill();
+	ofSetColor(255);
+	
+	ofBeginShape();
+	for (int i = 0; i < points.size(); i++){
+		ofVertex(points[i].x, points[i].y);
+	}
+	ofEndShape();
+	
+	
 }
 
 //--------------------------------------------------------------
@@ -47,11 +57,22 @@ void ofApp::mouseMoved(int x, int y ){
 //--------------------------------------------------------------
 void ofApp::mouseDragged(int x, int y, int button){
 
+	ofPoint tempPt;
+	tempPt.x = x;
+	tempPt.y = y;
+	points.push_back(tempPt);
+	printf ("size of vector %i \n", points.size());
+	
+	
+	if (points.size() > 50){
+		points.erase(points.begin());
+	}
 }
 
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
 
+	points.clear();
 }
 
 //--------------------------------------------------------------
