@@ -571,7 +571,7 @@
 				<key>isa</key>
 				<string>PBXNativeTarget</string>
 				<key>name</key>
-				<string>06_sinExample_circlePlusPath</string>
+				<string>03_sinExample_circle</string>
 				<key>productName</key>
 				<string>myOFApp</string>
 				<key>productReference</key>
@@ -588,7 +588,7 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>path</key>
-				<string>06_sinExample_circlePlusPathDebug.app</string>
+				<string>03_sinExample_circleDebug.app</string>
 				<key>sourceTree</key>
 				<string>BUILT_PRODUCTS_DIR</string>
 			</dict>

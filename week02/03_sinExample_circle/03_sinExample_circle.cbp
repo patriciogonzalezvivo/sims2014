@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="04_sinExample_pointRecorder" />
+		<Option title="03_sinExample_circle" />
 		<Option makefile="makefile" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />

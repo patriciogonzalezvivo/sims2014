@@ -1,7 +1,7 @@
-#include "testApp.h"
+#include "ofApp.h"
 
 //--------------------------------------------------------------
-void testApp::setup(){
+void ofApp::setup(){
 	
 	ofSetVerticalSync(true);
 	
@@ -12,7 +12,7 @@ void testApp::setup(){
 }
 
 //--------------------------------------------------------------
-void testApp::update(){
+void ofApp::update(){
 	
 	
 	
@@ -20,55 +20,54 @@ void testApp::update(){
 }
 
 //--------------------------------------------------------------
-void testApp::draw(){
+void ofApp::draw(){
 	
-	float xorig = mouseX;
-	float yorig = mouseY;
-	float radius = 50;
-	float angle = ofGetElapsedTimef()*5;
 	
-	float x = xorig + radius * cos(angle);
-	float y = yorig + radius * -sin(angle);
+	float modulator = ofMap( sin(ofGetElapsedTimef()*12.7), -1, 1, 0, 1);
 	
-	ofSetRectMode(OF_RECTMODE_CENTER);
+	float xpos		= ofMap( sin(ofGetElapsedTimef()*3) * modulator, -1, 1, 0, ofGetWidth());
+	
+	
 	ofSetColor(255,255,255);
-	ofRect(x,y,30,30);
+	
+	ofRect(xpos, 100, 20,20);
+	
 	
 
 }
 
 //--------------------------------------------------------------
-void testApp::keyPressed(int key){
+void ofApp::keyPressed(int key){
 
 }
 
 //--------------------------------------------------------------
-void testApp::keyReleased(int key){
+void ofApp::keyReleased(int key){
 
 }
 
 //--------------------------------------------------------------
-void testApp::mouseMoved(int x, int y ){
+void ofApp::mouseMoved(int x, int y ){
 
 }
 
 //--------------------------------------------------------------
-void testApp::mouseDragged(int x, int y, int button){
+void ofApp::mouseDragged(int x, int y, int button){
 
 }
 
 //--------------------------------------------------------------
-void testApp::mousePressed(int x, int y, int button){
+void ofApp::mousePressed(int x, int y, int button){
 
 }
 
 //--------------------------------------------------------------
-void testApp::mouseReleased(int x, int y, int button){
+void ofApp::mouseReleased(int x, int y, int button){
 
 }
 
 //--------------------------------------------------------------
-void testApp::windowResized(int w, int h){
+void ofApp::windowResized(int w, int h){
 
 }
 

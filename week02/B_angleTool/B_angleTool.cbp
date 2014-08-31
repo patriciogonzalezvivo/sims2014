@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="04_sinExample_pointRecorder" />
+		<Option title="B_angleTool" />
 		<Option makefile="makefile" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
@@ -134,5 +134,11 @@
 			<debugger />
 			<envvars />
 		</Extensions>
+		<Unit filename="src/testApp.cpp">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Unit filename="src/testApp.h">
+			<Option virtualFolder="src" />
+		</Unit>
 	</Project>
 </CodeBlocks_project_file>

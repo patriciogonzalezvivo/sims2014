@@ -49,4 +49,14 @@ These will preserve the examples on 3 levels over the root directory (if you don
 ## 4. Make a GitHub Account and a repository for your Homework
 
 Create a github account if you don't have one already and create a repo for the class that you'll use to submit your homework.  Name it as follows, '[newSchoolID]_sims2014' (ex: 'gonzp378_sims2014' ).
+
+**Important**: add a [```.gitignore```](https://gist.github.com/ofZach/3707086). This will tells git to avoid certain files, such as compiled object code, .app / .exes, etc. It keeps your repos slim and lightweight and helps you avoid committing unnecessary things.
+
+## 5. Setup up the collective homework repo
+
+	git clone https://github.com/patriciogonzalezvivo/sims2014_students.git
+	cd sims2014_students
+	git pull && git submodule init && git submodule update && git submodule status
+	git submodule foreach git checkout master
+	git submodule foreach git pull
  

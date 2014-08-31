@@ -134,11 +134,5 @@
 			<debugger />
 			<envvars />
 		</Extensions>
-		<Unit filename="src/testApp.cpp">
-			<Option virtualFolder="src" />
-		</Unit>
-		<Unit filename="src/testApp.h">
-			<Option virtualFolder="src" />
-		</Unit>
 	</Project>
 </CodeBlocks_project_file>

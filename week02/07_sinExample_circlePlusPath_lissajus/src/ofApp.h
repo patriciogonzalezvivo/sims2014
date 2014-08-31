@@ -4,7 +4,7 @@
 
 #include "ofMain.h"
 
-class testApp : public ofBaseApp{
+class ofApp : public ofBaseApp{
 
 	public:
 		void setup();
@@ -18,6 +18,11 @@ class testApp : public ofBaseApp{
 		void mousePressed(int x, int y, int button);
 		void mouseReleased(int x, int y, int button);
 		void windowResized(int w, int h);
+	
+		vector < ofPoint > points;
+		
+	
+	
 
 };
 

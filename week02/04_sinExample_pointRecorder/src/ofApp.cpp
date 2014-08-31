@@ -1,7 +1,7 @@
-#include "testApp.h"
+#include "ofApp.h"
 
 //--------------------------------------------------------------
-void testApp::setup(){
+void ofApp::setup(){
 
 	
 	ofSetVerticalSync(true);
@@ -13,7 +13,7 @@ void testApp::setup(){
 }
 
 //--------------------------------------------------------------
-void testApp::update(){
+void ofApp::update(){
 	
 	
 	//for (int i = 0; i < points.size(); i++){
@@ -25,7 +25,7 @@ void testApp::update(){
 }
 
 //--------------------------------------------------------------
-void testApp::draw(){
+void ofApp::draw(){
 
 	ofNoFill();
 	ofSetColor(0, 0, 0);
@@ -40,22 +40,22 @@ void testApp::draw(){
 }
 
 //--------------------------------------------------------------
-void testApp::keyPressed(int key){
+void ofApp::keyPressed(int key){
 
 }
 
 //--------------------------------------------------------------
-void testApp::keyReleased(int key){
+void ofApp::keyReleased(int key){
 
 }
 
 //--------------------------------------------------------------
-void testApp::mouseMoved(int x, int y ){
+void ofApp::mouseMoved(int x, int y ){
 
 }
 
 //--------------------------------------------------------------
-void testApp::mouseDragged(int x, int y, int button){
+void ofApp::mouseDragged(int x, int y, int button){
 
 	ofPoint tempPt;
 	tempPt.x = x;
@@ -70,18 +70,18 @@ void testApp::mouseDragged(int x, int y, int button){
 }
 
 //--------------------------------------------------------------
-void testApp::mousePressed(int x, int y, int button){
+void ofApp::mousePressed(int x, int y, int button){
 
 	points.clear();
 }
 
 //--------------------------------------------------------------
-void testApp::mouseReleased(int x, int y, int button){
+void ofApp::mouseReleased(int x, int y, int button){
 
 }
 
 //--------------------------------------------------------------
-void testApp::windowResized(int w, int h){
+void ofApp::windowResized(int w, int h){
 
 }
 
