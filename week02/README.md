@@ -5,7 +5,7 @@
 [3.1](https://vimeo.com/channels/natureofcode/59509643), [3.2](https://vimeo.com/channels/natureofcode/59509645), [3.3](https://vimeo.com/channels/natureofcode/59509644), [3.4](https://vimeo.com/channels/natureofcode/59707298), [3.5](https://vimeo.com/channels/natureofcode/59707299)
 
 ## Read
-[Chapter 04 ](https://github.com/openframeworks/ofBook/blob/master/04_animation/chapter.md) by Zachary Lieberman of the ofBook (from **Function based movement**)
+[Chapter 04 ](https://github.com/openframeworks/ofBook/blob/master/chapters/animation/chapter.md) by Zachary Lieberman of the ofBook (from **Function based movement**)
 
 ## Class Notes
 

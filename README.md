@@ -63,7 +63,7 @@ You may find additional help and inspiration in the examples contained in the fo
 ##### C++ and oF
 Because we will code in C++, the sooner you get comfortable with it the better. There is A LOT of helpful extra material; personally I like the following resources:
 
-* ofBook: [Chapter 02: C++](https://github.com/openframeworks/ofBook/blob/master/02_cplusplus_basics/chapter.md) by [Josh Nimoy](http://jtnimoy.com/), [Chapter 03: OOP](https://github.com/openframeworks/ofBook/blob/master/03a_OOPs!/chapter.md), [Chapter 16: Memory](https://github.com/openframeworks/ofBook/blob/master/16_memory/chapter.md) by [Arturo Castro](http://arturocastro.net/)
+* [ofBook](https://github.com/openframeworks/ofBook/tree/master/chapters)
 
 * [Stanford University - CS107 - Programming Paradigms](http://videolectures.net/stanfordcs107s08_programming_paradigms/) by Jerry Cain
 
