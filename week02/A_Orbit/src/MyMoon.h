@@ -6,9 +6,19 @@
 //
 //
 
-#ifndef __A_Orbit__MyMoon__
-#define __A_Orbit__MyMoon__
+#pragma once
 
-#include <iostream>
+#include "ofMain.h"
 
-#endif /* defined(__A_Orbit__MyMoon__) */
+class MyMoon : public ofPoint {
+public:
+    
+    void set(float _dist, float _intAngle);
+    
+    void update(float _step, ofPoint _center);
+    
+    void draw();
+    
+    float radius;
+    float angle;
+};
