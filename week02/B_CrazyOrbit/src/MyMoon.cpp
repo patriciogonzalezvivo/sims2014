@@ -14,12 +14,12 @@ void MyMoon::set(float _dist, float _intAngle){
 }
 
 void MyMoon::update(ofPoint _center){    
-    x = _center.x + radius * cos(angle);
-    y = _center.y + radius * sin(angle);
+    x = _center.x + radius * cos(angle*0.3);
+    y = _center.y + radius * sin(angle*0.5);
     
     tail.push_back(*this);
     
-    if(tail.size()>200){
+    if(tail.size()>1000){
         tail.erase(tail.begin());
     }
 }

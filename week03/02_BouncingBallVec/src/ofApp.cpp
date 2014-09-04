@@ -2,27 +2,20 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-
-    luna.set(70, 0);
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-    
-    luna.angle += TWO_PI/ofGetFrameRate();
-    
-//    luna.radius += 0.1;
-//    luna.radius *= 1.01;
-    
-    luna.update(ofPoint(ofGetWidth()*0.5, ofGetHeight()*0.5));
-    
+    myBall.update();
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    ofBackground(0, 0, 0);
     
-    luna.draw();
+    ofBackground(0, 0, 0);
+	ofSetColor(255,0,0);
+    
+    myBall.draw();
 }
 
 //--------------------------------------------------------------
