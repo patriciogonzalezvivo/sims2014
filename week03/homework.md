@@ -2,14 +2,18 @@
 
 Non-code:
 
-a) Using a stationary video camera, make three recordings of three different scenes which have interesting motion. Pick one point to watch during the video, and sketch out it’s motion path. Try to find both rhythmic (repetitive) and organic motions.
+Take a video of “real world particles”
+see for example, http://vimeo.com/28732551
 
 Code:
 
-a) Create a square canvas, and play with leaving trails for objects in motion by not clearing the screen.  Play with shapes and colors and see what the most interesting composition you can make is.  Take screenshots of the top 3 you come up with.
+(a) Create a looping fireworks animation (non interactive). You will need to reset or restart particles every so often. (and then we’ll figure out how to save this as a screen saver for your mom!)
 
-b) Use sin / cos to emulate a natural phenomenon.  Post a picture or video of what your phenomenon is along with you application.
+(b) Since you know how to position things in a circle using the formula: 
 
-c) Use atan2 in conjunction with some mouse follow code (xeno) or the previous vector/acceleration work and create a creature that follows a point.  Think os using sin/cos to give it living characteristics based on it's motion.  (think of more subtle motions of creatures, breathing, blinking, leg motion, etc)
+	x = x_orig + radius * cos (angle); 
+	y = y_orig + radius * sin (angle); 
 
-d) Bring a BouncingBall implementation for openFrameworks.
+Think about how you could use sinusoidal information to start all the particles with some interesting positions / velocities. Instead of using random, use sinusoidal information (in any way you want) to make the starting positions/velocities of these objects interesting. can you use sin/cos to make the movement or drawing of the particle more interesting?
+
+(c) Besides evidence to the contrary, particles don’t have to be just circles! you can draw them however you want. Can you create an interesting effect with transparency or by using images? Can you use parameters, like velocity to control the way these objects are drawn (like, they get smaller as they slow down, or more transparent, using angle of the velocity to rotate, etc). Think about trying to create a natural phenomenon, one of your videos or simply something really nice looking to simulate the behavior/structure/growing or composition with particles
