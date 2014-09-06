@@ -41,8 +41,11 @@ Students will complete field trips and collect observations of natural patterns 
 
 ## Learning Outcomes
 By the successful completion of this course, students will be able to:
+
 1. Be able to compile and run their own C++ programs in openFrameworks.
+
 2. Have an understanding of how real world physics translates to computer simulations.
+
 3. Be comfortable talking about their work in front of other students.
 
 ## Final Grade Calculation
