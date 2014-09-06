@@ -9,7 +9,7 @@
 
 * [Chapter on Memory](https://github.com/openframeworks/ofBook/blob/master/chapters/memory/chapter.md) of ofBook by Arturo Castro 
 
-* Start reading [Effective C++](http://ptgmedia.pearsoncmg.com/images/9780321334879/samplepages/0321334876.pdf) by Scott Meyers until “Chapter 06: Inheritance and Object-Oriented Design” 
+* Start reading [Effective C++](http://ptgmedia.pearsoncmg.com/images/9780321334879/samplepages/0321334876.pdf) by Scott Meyers until “Chapter 06: Inheritance and Object-Oriented Design” include (the chapter 6 is specially important)
 
 
 ## Wach
