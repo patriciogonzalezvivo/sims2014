@@ -30,7 +30,7 @@ void Particle::addForce(ofPoint _force){
     acc += _force;
 }
 
-void Particle::addRepulsion(ofPoint _pos, float _rad, float _scale){
+void Particle::addRepulsionForce(ofPoint _pos, float _rad, float _scale){
     
     ofPoint diff = _pos - pos;
     if( diff.length() < _rad ){
@@ -39,7 +39,7 @@ void Particle::addRepulsion(ofPoint _pos, float _rad, float _scale){
     }
 }
 
-void Particle::addAttraction(ofPoint _pos, float _rad, float _scale){
+void Particle::addAttractionForce(ofPoint _pos, float _rad, float _scale){
     ofPoint diff = _pos - pos;
     if( diff.length() < _rad ){
         diff *= 1.0-diff.length()/_rad;
@@ -68,6 +68,30 @@ void Particle::addCounterClockwiseForce( ofPoint _pos, float _rad, float _scale)
 	}
 }
 
+void Particle::seek( ofPoint dest ) {
+    float maxSpeed = 10.0;
+    float maxForce = 0.4;
+    
+    float slowDownRadius = 200.0;
+    
+    ofPoint desired = dest - pos;
+    
+    if( desired.length() < slowDownRadius ){
+        float newMag = ofMap( desired.length(), 0, slowDownRadius, 0, maxSpeed);
+        
+        desired.normalize();
+        desired *= newMag;
+    }else{
+        desired.normalize();
+        desired *= maxSpeed;
+    }
+    
+    ofPoint steer = desired - vel;
+    steer.limit( maxForce );
+    
+    addForce( steer );
+}
+
 void Particle::update() {
     
     vel += acc;
@@ -87,5 +111,16 @@ void Particle::update() {
 }
 
 void Particle::draw() {
-    ofCircle(pos, radius);
+//    ofCircle(pos, radius);
+    
+    ofSetRectMode( OF_RECTMODE_CENTER );
+    
+    ofPushMatrix();
+    ofTranslate( pos );
+    
+    float rotAmt = atan2( vel.y, vel.x );
+    ofRotate( ofRadToDeg(rotAmt) + 90 );
+    ofRect( 0,0, 20, 40);
+    
+    ofPopMatrix();
 }

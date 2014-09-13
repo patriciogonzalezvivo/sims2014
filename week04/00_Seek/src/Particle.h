@@ -18,6 +18,8 @@ public:
     void addClockwiseForce( ofPoint _pos, float _rad, float _scale);
     void addCounterClockwiseForce( ofPoint _pos, float _rad, float _scale);
     
+    void seek( ofPoint dest );
+    
     void update();
     void draw();
     

@@ -24,7 +24,7 @@ Students will complete field trips and collect observations of natural patterns 
 | WEEK | DATE  | TOPIC                                     |
 |:----:|:-----:|:------------------------------------------|
 |  01  | 08/27 | Setup, Principles of OOP and Motion       |
-|  02  | 09/03 | Oscillation and trigonometry review	       |
+|  02  | 09/03 | Oscillation and trigonometry review	     |
 |  03  | 09/10 | Attraction & Repulsion forces             |         
 |  04  | 09/17 | Case Study: Flocking Simulation           |
 |  05  | 09/24 | Springs and Pointers                      |

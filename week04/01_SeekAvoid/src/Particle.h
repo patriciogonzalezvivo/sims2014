@@ -13,13 +13,17 @@ public:
     
     void addForce(ofPoint _force);
     
-    void addRepulsion(ofPoint _pos, float _rad, float _scale);
-    void addAttraction(ofPoint _pos, float _rad, float _scale);
+    void addRepulsionForce(ofPoint _pos, float _rad, float _scale);
+    void addAttractionForce(ofPoint _pos, float _rad, float _scale);
     void addClockwiseForce( ofPoint _pos, float _rad, float _scale);
     void addCounterClockwiseForce( ofPoint _pos, float _rad, float _scale);
     
+    void seek( ofPoint dest );
+    
     void update();
     void draw();
+    
+    ofColor color;
     
 private:
     ofPoint pos;
