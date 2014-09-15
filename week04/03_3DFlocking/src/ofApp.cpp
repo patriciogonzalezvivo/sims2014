@@ -5,10 +5,10 @@ void ofApp::setup(){
     
     //  Create 100 Particles
     //
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 500; i++) {
         Particle newParticle;
-        newParticle.setInit(ofPoint(ofGetWidth()*0.5,ofGetHeight()*0.5),
-                            ofPoint(ofRandom(-1, 1), ofRandom(-1, 1)));
+        newParticle.setInit(ofPoint(ofRandom(-100,100),ofRandom(-100,100),ofRandom(-100,100)),
+                            ofPoint(ofRandom(-1, 1), ofRandom(-1, 1), ofRandom(-1, 1)));
         particles.push_back(newParticle);
     }
     
@@ -19,10 +19,10 @@ void ofApp::update(){
     ofPoint mouse = ofPoint(mouseX,mouseY);
     
     for (int i = 0; i < particles.size(); i++) {
-    
-        particles[i].addFlockingForce(particles, 80, 0.333, 0.33, 0.33);
+        particles[i].addFlockingForce(particles, 80, 0.33, 0.5, 0.2);
+        particles[i].addAttractionForce(ofPoint(0,0), 1000, 0.0001);
+        particles[i].addRepulsionForce(ofPoint(0,0), 100, 0.9);
         particles[i].update();
-        particles[i].infiniteWalls();
     }
     
     
@@ -30,20 +30,24 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    if(ofGetKeyPressed('s')){
-        ofBeginSaveScreenAsPDF(ofGetTimestampString()+".pdf");
-    }
-    
-    ofBackground(0, 0, 0);
+    ofBackground(0);
 	ofSetColor(255);
     
-    for (auto &it: particles) {
-        it.draw();
+    ofPushMatrix();
+    cam.begin();
+    light.enable();
+    ofEnableLighting();
+    glEnable(GL_DEPTH_TEST);
+    
+    for (int i = 0; i < particles.size(); i++) {
+        particles[i].draw();
     }
     
-    if(ofGetKeyPressed('s')){
-        ofEndSaveScreenAsPDF();
-    }
+    glDisable(GL_DEPTH_TEST);
+    ofDisableLighting();
+    light.disable();
+    cam.end();
+    ofPopMatrix();
 }
 
 //--------------------------------------------------------------

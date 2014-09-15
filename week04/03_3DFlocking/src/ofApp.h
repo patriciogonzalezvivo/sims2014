@@ -20,4 +20,7 @@ public:
     void gotMessage(ofMessage msg);
 		
     vector<Particle> particles;
+    
+    ofEasyCam       cam;
+    ofLight         light;
 };

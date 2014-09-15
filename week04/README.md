@@ -18,6 +18,8 @@
 
 ## Wach
 
+* [Robert Hodgin’s 2014 Eyeo](https://vimeo.com/103537259)
+
 * [Pointers and references](https://www.youtube.com/watch?v=TgsH02sORZ0)
 
 * [Lecture 2 Programming Paradigms - Standford](https://www.youtube.com/watch?v=jTSvthW34GU) by Professor Jerry Cain

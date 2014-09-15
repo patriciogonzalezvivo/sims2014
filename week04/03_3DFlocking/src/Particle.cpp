@@ -9,7 +9,7 @@ Particle::Particle() {
     acc.set(0,0,0);
     
     damp = 0.97; // de resistance!!!
-    radius = 3;
+    radius = 1;
 }
 
 void Particle::setInit(ofPoint _pos, ofPoint _vel){
@@ -177,15 +177,45 @@ void Particle::infiniteWalls(){
     }
 }
 
+void addFace(ofMesh& mesh, ofVec3f a, ofVec3f b, ofVec3f c) {
+	ofVec3f normal = ((b - a).cross(c - a)).normalize();
+	mesh.addNormal(normal);
+	mesh.addVertex(a);
+	mesh.addNormal(normal);
+	mesh.addVertex(b);
+	mesh.addNormal(normal);
+	mesh.addVertex(c);
+}
+
 void Particle::draw() {
-    ofCircle(pos, radius);
+//    ofCircle(pos, radius);
+//    
+//    ofPoint velNormal = vel;
+//	velNormal.normalize();
+//	
+//	ofVec2f velPerp;
+//	velPerp.x = -velNormal.y;
+//	velPerp.y = velNormal.x;
+//	
+//	ofLine(pos.x, pos.y, pos.x + velNormal.x*10, pos.y + velNormal.y*10);
+
+    float sc = radius;
+    ofPushStyle();
     
-    ofPoint velNormal = vel;
-	velNormal.normalize();
-	
-	ofVec2f velPerp;
-	velPerp.x = -velNormal.y;
-	velPerp.y = velNormal.x;
-	
-	ofLine(pos.x, pos.y, pos.x + velNormal.x*10, pos.y + velNormal.y*10);
+    ofMesh mesh;
+    mesh.setMode(OF_PRIMITIVE_TRIANGLES);
+    
+    addFace(mesh, ofVec3f(3*sc,0,0), ofVec3f(-3*sc,2*sc,0), ofVec3f(-3*sc,-2*sc,0));
+    addFace(mesh, ofVec3f(3*sc,0,0), ofVec3f(-3*sc,2*sc,0), ofVec3f(-3*sc,0,2*sc));
+    addFace(mesh, ofVec3f(3*sc,0,0), ofVec3f(-3*sc,0,2*sc), ofVec3f(-3*sc,-2*sc,0));
+    addFace(mesh, ofVec3f(-3*sc,0,2*sc), ofVec3f(-3*sc,2*sc,0), ofVec3f(-3*sc,-2*sc,0));
+	ofPushMatrix();
+	ofTranslate(pos);
+	ofRotateY(ofRadToDeg(atan2(-vel.z,vel.x)));
+	ofRotateZ(ofRadToDeg(asin(vel.y/vel.length())));
+    
+    mesh.drawFaces();
+    
+    ofPopMatrix();
+    ofPopStyle();
 }
