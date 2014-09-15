@@ -9,7 +9,7 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
-			<key>f6e16e09c324b218452c8548de37b25f</key>
+			<key>23d13cee25b08d74f6be5ed553c71c8b</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -18,20 +18,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>MyMoon.h</string>
+				<string>rectangle.h</string>
 				<key>path</key>
-				<string>src/MyMoon.h</string>
+				<string>src/rectangle.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>1d431194c521c5925ddeafafd5a93f69</key>
+			<key>c76df3c2c889714e040a2825705a0da8</key>
 			<dict>
 				<key>fileRef</key>
-				<string>3d8cc433811dd858646bbacb4590c1ca</string>
+				<string>1371a3870c52d45ea1fb1bebee192649</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>3d8cc433811dd858646bbacb4590c1ca</key>
+			<key>1371a3870c52d45ea1fb1bebee192649</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -40,9 +40,9 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>MyMoon.cpp</string>
+				<string>rectangle.cpp</string>
 				<key>path</key>
-				<string>src/MyMoon.cpp</string>
+				<string>src/rectangle.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -554,7 +554,7 @@
 				<array>
 					<string>E4B69E200A3A1BDC003C02F2</string>
 					<string>E4B69E210A3A1BDC003C02F2</string>
-					<string>1d431194c521c5925ddeafafd5a93f69</string>
+					<string>c76df3c2c889714e040a2825705a0da8</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
@@ -609,7 +609,7 @@
 				<key>isa</key>
 				<string>PBXNativeTarget</string>
 				<key>name</key>
-				<string>A_Orbit</string>
+				<string>C_rectangleXenoRota</string>
 				<key>productName</key>
 				<string>myOFApp</string>
 				<key>productReference</key>
@@ -626,7 +626,7 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>path</key>
-				<string>A_OrbitDebug.app</string>
+				<string>C_rectangleXenoRotaDebug.app</string>
 				<key>sourceTree</key>
 				<string>BUILT_PRODUCTS_DIR</string>
 			</dict>
@@ -857,8 +857,8 @@
 					<string>E4B69E1D0A3A1BDC003C02F2</string>
 					<string>E4B69E1E0A3A1BDC003C02F2</string>
 					<string>E4B69E1F0A3A1BDC003C02F2</string>
-					<string>3d8cc433811dd858646bbacb4590c1ca</string>
-					<string>f6e16e09c324b218452c8548de37b25f</string>
+					<string>1371a3870c52d45ea1fb1bebee192649</string>
+					<string>23d13cee25b08d74f6be5ed553c71c8b</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
