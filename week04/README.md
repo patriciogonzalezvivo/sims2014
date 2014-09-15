@@ -35,11 +35,10 @@
 - Pass by copy / pass by Reference
 - Efficient Loops
 
+- Simulating a behavior: seek & avoid 
+
 - Infinite walls
 
 - Craig Reynolds Flocking Algorithm
 - 3D Flocking
 - Light, Camera, Action!
-
-- Noise
-- [Noise Based Flocking](https://vimeo.com/8479763)
