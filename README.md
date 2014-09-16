@@ -1,6 +1,7 @@
  
-
-**Creative Coding** - 7040 - PGTE 5566 - B
+	**Creative Coding** - 7040 - PGTE 5566 - B
+	
+	Wednesdays between 7:00 pm - 9:40 pm	,	66 5th Ave 716	 by Patricio Gonzalez Vivo (gonzp378@newschool.edu).
 
 Welcome to **Simulation Studio FALL 2014**, [here](https://github.com/patriciogonzalezvivo/sims2014) you will find the class material.
 
