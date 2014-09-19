@@ -28,9 +28,9 @@ Students will complete field trips and collect observations of natural patterns 
 |  02  | 09/03 | Oscillation and trigonometry review	       |
 |  03  | 09/10 | Attraction & Repulsion forces             |         
 |  04  | 09/17 | Case Study: Flocking Simulation           |
-|  05  | 09/24 | Springs and Pointers                      |
-|  06  | 10/01 | MIDTERM PROJECT                           |
-|  07  | 10/08 | Path Following                            |
+|  05  | 09/24 | Path Following                            |
+|  06  | 10/01 | Springs and Pointers                      |
+|  07  | 10/08 | MIDTERM PROJECT                           |
 |  08  | 10/15 | Flow Field and Noise                      |
 |  09  | 10/22 | C++ Algorithmic Optimization              |
 |  10  | 10/29 | Case Study: Fractals                      |

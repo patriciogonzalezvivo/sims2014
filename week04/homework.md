@@ -13,8 +13,8 @@
 
 4. Squash and stretch really help things come alive.  Build squash and stretch into one of our particle simulations.  When a particle collides, it should squash, and when it's flying at high speed, it should stretch!  Pay attention to which direction it squashes and stretches.  You may want to make particles bigger so it's easier to see.
 
-5. Implement the 4th unofficial rule of flocking we discussed in class. A boid is only considered if it's with another boid's field of vision. 
-
 Advanced:
+
+5. Implement the 4th unofficial rule of flocking we discussed in class. A boid is only considered if it's with another boid's field of vision. 
 
 6. Try to make a "strange attractor" in openFrameworks.  It's a fractal structure and you can think of it similarly to the lissajous curves we were making before.  This one is probably a test of your research skills more than anything else!  Here's an example of one written in actionscript http://www.joa-ebert.com/swf/index.php?swf=alchemy/Example03  This one is in 3D, but 2D is great too!

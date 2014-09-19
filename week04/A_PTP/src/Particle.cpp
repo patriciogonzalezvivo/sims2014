@@ -9,7 +9,7 @@ Particle::Particle() {
     acc.set(0,0,0);
     
     damp = 0.95; // de resistance!!!
-    radius = 5;
+    radius = 20;
 }
 
 void Particle::setInit(ofPoint _pos, ofPoint _vel){
@@ -18,19 +18,21 @@ void Particle::setInit(ofPoint _pos, ofPoint _vel){
     acc.set(0,0,0);
 }
 
-ofPoint Particle::getPosition(){
-    return pos;
-}
-
-float Particle::getRadius(){
-    return radius;
-}
-
 void Particle::addForce(ofPoint _force){
     acc += _force;
 }
 
-void Particle::addRepulsion(ofPoint _pos, float _rad, float _scale){
+void Particle::addRepulsion(Particle *_other, float _scale){
+    
+    ofPoint diff = _other->pos - pos;
+    if( diff.length() < _other->radius ){
+        diff *= 1.0-diff.length()/_other->radius;// PRO way
+        addForce(-diff*_scale);
+        _other->addForce(diff*_scale);
+    }
+}
+
+void Particle::addRepulsion(ofPoint &_pos, float _rad, float _scale){
     
     ofPoint diff = _pos - pos;
     if( diff.length() < _rad ){
@@ -39,7 +41,7 @@ void Particle::addRepulsion(ofPoint _pos, float _rad, float _scale){
     }
 }
 
-void Particle::addAttraction(ofPoint _pos, float _rad, float _scale){
+void Particle::addAttraction(ofPoint &_pos, float _rad, float _scale){
     ofPoint diff = _pos - pos;
     if( diff.length() < _rad ){
         diff *= 1.0-diff.length()/_rad;
@@ -47,7 +49,7 @@ void Particle::addAttraction(ofPoint _pos, float _rad, float _scale){
     }
 }
 
-void Particle::addClockwiseForce( ofPoint _pos, float _rad, float _scale){
+void Particle::addClockwiseForce( ofPoint &_pos, float _rad, float _scale){
 	ofVec2f diff = pos - _pos;
 	
 	if (diff.length() < _rad){
@@ -57,7 +59,7 @@ void Particle::addClockwiseForce( ofPoint _pos, float _rad, float _scale){
 		acc.y += diff.x * pct * _scale;
 	}
 }
-void Particle::addCounterClockwiseForce( ofPoint _pos, float _rad, float _scale){
+void Particle::addCounterClockwiseForce( ofPoint &_pos, float _rad, float _scale){
 	ofVec2f diff = pos - _pos;
 	
 	if (diff.length() < _rad){
@@ -66,30 +68,6 @@ void Particle::addCounterClockwiseForce( ofPoint _pos, float _rad, float _scale)
 		acc.x += diff.y * pct * _scale;
 		acc.y -= diff.x * pct * _scale;
 	}
-}
-
-void Particle::seek( ofPoint dest ) {
-    float maxSpeed = 10.0;
-    float maxForce = 0.4;
-    
-    float slowDownRadius = 200.0;
-    
-    ofPoint desired = dest - pos;
-    
-    if( desired.length() < slowDownRadius ){
-        float newMag = ofMap( desired.length(), 0, slowDownRadius, 0, maxSpeed);
-        
-        desired.normalize();
-        desired *= newMag;
-    } else {
-        desired.normalize();
-        desired *= maxSpeed;
-    }
-    
-    ofPoint steer = desired - vel;
-    steer.limit( maxForce );
-    
-    addForce( steer );
 }
 
 void Particle::update() {
@@ -110,17 +88,7 @@ void Particle::update() {
     }
 }
 
-void Particle::draw() {
+void Particle::draw(ofImage *_img) {
 //    ofCircle(pos, radius);
-    
-    ofSetRectMode( OF_RECTMODE_CENTER );
-    
-    ofPushMatrix();
-    ofTranslate( pos );
-    
-    float rotAmt = atan2( vel.y, vel.x );
-    ofRotate( ofRadToDeg(rotAmt) + 90 );
-    ofRect( 0,0, 20, 40);
-    
-    ofPopMatrix();
+    _img->draw(pos, radius, radius);
 }
