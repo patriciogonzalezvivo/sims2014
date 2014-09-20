@@ -1,7 +1,7 @@
 
 ## Review 
 
-[Chapter 03: Oscillation](http://natureofcode.com/book/chapter-3-oscillation/) of The Nature of Code by Daniel Shiffman. Videos:
+[Chapter 03: Oscillation until 3.5 ](http://natureofcode.com/book/chapter-3-oscillation/) of The Nature of Code by Daniel Shiffman. Videos:
 [3.1](https://vimeo.com/channels/natureofcode/59509643), [3.2](https://vimeo.com/channels/natureofcode/59509645), [3.3](https://vimeo.com/channels/natureofcode/59509644), [3.4](https://vimeo.com/channels/natureofcode/59707298), [3.5](https://vimeo.com/channels/natureofcode/59707299)
 
 ## Read
