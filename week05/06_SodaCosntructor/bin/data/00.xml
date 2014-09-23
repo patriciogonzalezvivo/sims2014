@@ -1,0 +1,513 @@
+<texture>00.png</texture>
+<vertex>
+    <pos>
+        <x>5.000000000</x>
+        <y>156.000000000</y>
+    </pos>
+    <nId>30</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>6.000000000</x>
+        <y>114.000000000</y>
+    </pos>
+    <nId>0</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>14.000000000</x>
+        <y>188.000000000</y>
+    </pos>
+    <nId>29</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>19.000000000</x>
+        <y>75.000000000</y>
+    </pos>
+    <nId>1</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>51.000000000</x>
+        <y>35.000000000</y>
+    </pos>
+    <nId>2</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>66.000000000</x>
+        <y>226.000000000</y>
+    </pos>
+    <nId>28</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>102.000000000</x>
+        <y>13.000000000</y>
+    </pos>
+    <nId>3</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>113.000000000</x>
+        <y>543.000000000</y>
+    </pos>
+    <nId>21</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>130.000000000</x>
+        <y>237.000000000</y>
+    </pos>
+    <nId>27</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>137.000000000</x>
+        <y>264.000000000</y>
+    </pos>
+    <nId>26</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>151.000000000</x>
+        <y>3.000000000</y>
+    </pos>
+    <nId>4</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>155.000000000</x>
+        <y>491.000000000</y>
+    </pos>
+    <nId>22</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>163.000000000</x>
+        <y>340.000000000</y>
+    </pos>
+    <nId>25</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>172.000000000</x>
+        <y>481.000000000</y>
+    </pos>
+    <nId>23</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>184.000000000</x>
+        <y>418.000000000</y>
+    </pos>
+    <nId>24</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>195.000000000</x>
+        <y>605.000000000</y>
+    </pos>
+    <nId>20</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>207.000000000</x>
+        <y>5.000000000</y>
+    </pos>
+    <nId>5</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>212.000000000</x>
+        <y>233.000000000</y>
+    </pos>
+    <nId>14</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>215.000000000</x>
+        <y>278.000000000</y>
+    </pos>
+    <nId>15</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>232.000000000</x>
+        <y>231.000000000</y>
+    </pos>
+    <nId>13</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>235.000000000</x>
+        <y>337.000000000</y>
+    </pos>
+    <nId>16</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>252.000000000</x>
+        <y>382.000000000</y>
+    </pos>
+    <nId>17</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>261.000000000</x>
+        <y>11.000000000</y>
+    </pos>
+    <nId>6</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>266.000000000</x>
+        <y>469.000000000</y>
+    </pos>
+    <nId>18</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>281.000000000</x>
+        <y>217.000000000</y>
+    </pos>
+    <nId>12</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>295.000000000</x>
+        <y>27.000000000</y>
+    </pos>
+    <nId>7</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>321.000000000</x>
+        <y>195.000000000</y>
+    </pos>
+    <nId>11</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>327.000000000</x>
+        <y>58.000000000</y>
+    </pos>
+    <nId>8</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>331.000000000</x>
+        <y>530.000000000</y>
+    </pos>
+    <nId>19</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>344.000000000</x>
+        <y>153.000000000</y>
+    </pos>
+    <nId>10</nId>
+</vertex>
+<vertex>
+    <pos>
+        <x>346.000000000</x>
+        <y>99.000000000</y>
+    </pos>
+    <nId>9</nId>
+</vertex>
+<spring>
+    <A>0</A>
+    <B>1</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>1</A>
+    <B>2</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>2</A>
+    <B>3</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>3</A>
+    <B>4</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>4</A>
+    <B>5</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>5</A>
+    <B>6</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>6</A>
+    <B>7</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>7</A>
+    <B>8</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>8</A>
+    <B>9</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>9</A>
+    <B>10</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>10</A>
+    <B>11</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>11</A>
+    <B>12</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>12</A>
+    <B>13</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>13</A>
+    <B>14</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>14</A>
+    <B>15</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>15</A>
+    <B>16</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>16</A>
+    <B>17</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>17</A>
+    <B>18</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>18</A>
+    <B>19</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>19</A>
+    <B>20</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>20</A>
+    <B>21</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>21</A>
+    <B>22</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>22</A>
+    <B>23</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>23</A>
+    <B>24</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>24</A>
+    <B>25</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>25</A>
+    <B>26</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>26</A>
+    <B>27</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>27</A>
+    <B>28</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>28</A>
+    <B>29</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>29</A>
+    <B>30</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>30</A>
+    <B>0</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>21</A>
+    <B>19</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>22</A>
+    <B>19</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>18</A>
+    <B>22</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>23</A>
+    <B>18</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>23</A>
+    <B>17</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>17</A>
+    <B>24</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>24</A>
+    <B>16</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>16</A>
+    <B>25</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>25</A>
+    <B>15</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>15</A>
+    <B>26</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>26</A>
+    <B>14</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>14</A>
+    <B>27</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>27</A>
+    <B>0</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>0</A>
+    <B>28</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>28</A>
+    <B>30</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>27</A>
+    <B>1</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>1</A>
+    <B>14</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>14</A>
+    <B>2</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>2</A>
+    <B>13</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>13</A>
+    <B>3</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>3</A>
+    <B>12</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>12</A>
+    <B>4</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>4</A>
+    <B>11</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>11</A>
+    <B>5</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>5</A>
+    <B>10</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>10</A>
+    <B>6</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>6</A>
+    <B>9</B>
+    <k>0.200000003</k>
+</spring>
+<spring>
+    <A>9</A>
+    <B>7</B>
+    <k>0.200000003</k>
+</spring>
