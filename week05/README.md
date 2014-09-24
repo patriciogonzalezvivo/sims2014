@@ -18,3 +18,19 @@
 
 ## Wach
 * [Cylinder Mesh Example](https://vimeo.com/41297608) by Kyle McDonald
+
+## Class Notes
+
+- Play with last class flocking system: ofCamera and ofLights
+
+- Extend classes to have different types of fishes
+
+- Vector of pointers
+
+- Springs: [Hooke’s law](http://en.wikipedia.org/wiki/Hooke's_law)
+
+- Construction of creatures
+
+- Muscles
+
+- Meshes

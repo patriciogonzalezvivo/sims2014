@@ -32,10 +32,10 @@ Students will complete field trips and collect observations of natural patterns 
 |  06  | 10/01 | Springs and Pointers                      |
 |  07  | 10/08 | MIDTERM PROJECT                           |
 |  08  | 10/15 | Flow Field and Noise                      |
-|  09  | 10/22 | C++ Algorithmic Optimization              |
-|  10  | 10/29 | Case Study: Fractals                      |
-|  11  | 11/05 | Advance OpenGL principles                 |
-|  12  | 11/12 | Case Study: Conway & Gray-Scott           |
+|  09  | 10/22 | Advance OpenGL principles                 |
+|  10  | 10/29 | GLSL Shader simulations 									 |
+|  11  | 11/05 | Case Study: Conway & Gray-Scott           |
+|  12  | 11/12 | Case Study: Fractals            					 |
 |  13  | 11/19 | Final project workshop                    |
 |  14  | 12/03 | Final project workshop                    |
 |  15  | 12/10 | FINAL PROJECT                             |
