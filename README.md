@@ -1,7 +1,7 @@
  
 	**Creative Coding** - 7040 - PGTE 5566 - B
 	
-	Wednesdays between 7:00 pm - 9:40 pm	,	66 5th Ave 716	 by Patricio Gonzalez Vivo (gonzp378@newschool.edu).
+	Wednesdays between 7:00 pm - 9:40 pm	 at 66 5th Ave 716	 
 
 Welcome to **Simulation Studio FALL 2014**, [here](https://github.com/patriciogonzalezvivo/sims2014) you will find the class material.
 
@@ -28,17 +28,16 @@ Students will complete field trips and collect observations of natural patterns 
 |  02  | 09/03 | Oscillation and trigonometry review	       |
 |  03  | 09/10 | Attraction & Repulsion forces             |         
 |  04  | 09/17 | Case Study: Flocking Simulation           |
-|  05  | 09/24 | Path Following                            |
-|  06  | 10/01 | Springs and Pointers                      |
-|  07  | 10/08 | MIDTERM PROJECT                           |
-|  08  | 10/15 | Flow Field and Noise                      |
-|  09  | 10/22 | Advance OpenGL principles                 |
-|  10  | 10/29 | GLSL Shader simulations 									 |
-|  11  | 11/05 | Case Study: Conway & Gray-Scott           |
-|  12  | 11/12 | Case Study: Fractals            					 |
-|  13  | 11/19 | Final project workshop                    |
-|  14  | 12/03 | Final project workshop                    |
-|  15  | 12/10 | FINAL PROJECT                             |
+|  05  | 10/01 | Springs and Pointers                      |
+|  06  | 10/08 | MIDTERM PROJECT                           |
+|  07  | 10/15 | Flow Field and Noise                      |
+|  08  | 10/22 | Advance OpenGL principles                 |
+|  09  | 10/29 | GLSL Shader simulations 									 |
+|  10  | 11/05 | Case Study: Conway & Gray-Scott           |
+|  11  | 11/12 | Case Study: Fractals            					 |
+|  12  | 11/19 | Final project workshop                    |
+|  13  | 12/03 | Final project workshop                    |
+|  14  | 12/10 | FINAL PROJECT                             |
 
 ## Learning Outcomes
 By the successful completion of this course, students will be able to:
