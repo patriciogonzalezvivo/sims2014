@@ -1,9 +1,5 @@
-
-## Review 
-
-[Chapter 03 form section 10](natureofcode.com/book/chapter-3-oscillation/#chapter03_section10) of The Nature of Code by Daniel Shiffman. Videos: [3.5](https://vimeo.com/channels/natureofcode/59707299)
-
 ## Read
+[Chapter 6.6 Flow Fields](http://natureofcode.com/book/chapter-6-autonomous-agents/) of The Nature of Code by Daniel Shiffman. Videos: [6.6](https://vimeo.com/63928276) [6.7](https://vimeo.com/63928275) [6.8](https://vimeo.com/63928274)
 
 ## Compile and Play
 

@@ -95,6 +95,8 @@ There are a huge number of papers, books and examples online about algorithms an
 
 * [The Algorithmic Beauty of Plants](http://algorithmicbotany.org/papers/abop/abop.pdf) by Przemyslaw Prusinkiewicz and Aristid Lindenmayer
 
+* [Golan’s](http://golancourses.net/2013/lectures/lecture-01-30/) class notes of Generative Art
+
 ## Grading Standards
 
 - A	Work of exceptional quality 
