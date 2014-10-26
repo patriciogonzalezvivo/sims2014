@@ -5,19 +5,31 @@ void ofApp::setup(){
     ofSetVerticalSync(true);
     ofEnableDepthTest();
     
+    //  Load the heightmap texture and allocate the fbo
+    //  Both are in NON-ARB mode... that means their texCoords goes from 0-1
+    //
     ofDisableArbTex();
     ofLoadImage(heightMap, "heightmap.png");
     normalFbo.allocate(ofGetWidth(), ofGetHeight());
     ofEnableArbTex();
     
+    //  Load both shaders
+    //      1. the fragment shader to calculate normals that we saw on week 7
+    //      2. a vert and frag shader that will move the vertex of our mesh
+    //
     normalShader.load("","normal.frag");
     terrainShader.load("terrain");
     
+    //  Let's contruct a flat mesh... is like a fabric... the dots are conected but with out relieve
+    //
     int scale = 15;
     int w = ofGetWidth()/scale;
     int h = ofGetHeight()/scale;
     for (int y = 0; y < h; y++){
         for (int x = 0; x<w; x++){
+            
+            //  Per pixel we set the position, normal and texCoord
+            //
             float offsetX = 0;
             float offsetY = (x%2==1)?0.5:0.0;
             terrain.addVertex(ofPoint((x+offsetX)*scale,(y+offsetY)*scale,0));
@@ -26,6 +38,8 @@ void ofApp::setup(){
         }
     }
     
+    //  Finally we set the indexes... We tell openGL how the vertex are connected in triangles (a,b,c)
+    //
     for (int y = 0; y<h-1; y++){
         for (int x=0; x<w-1; x++){
             if(x%2==0){
@@ -58,6 +72,9 @@ void ofApp::update(){
     int height = ofGetHeight();
     
     //  Compute the normals inside a FBO
+    //  a FBO is like a screen... we can render and draw in it.
+    //  but instead of been render on the monitor is render into memory (Frame Buffer Object)
+    //  That have a texture that then we will pass to the vertex/frag shader that creates the terrain
     //
     normalFbo.begin();
     ofClear(0);
@@ -89,7 +106,10 @@ void ofApp::update(){
 void ofApp::draw(){
     ofBackground(0);
 
+    // Camera!
     cam.begin();
+    
+    // Action!
     ofPushMatrix();
     
     //  Center the mesh;
@@ -102,7 +122,7 @@ void ofApp::draw(){
     terrainShader.begin();
     terrainShader.setUniformTexture("heightMap", heightMap,0);
     terrainShader.setUniformTexture("normalMap", normalFbo,1);
-    terrainShader.setUniform1f("time",ofGetElapsedTimef());
+    terrainShader.setUniform1f("time",ofGetElapsedTimef());     // We can play with this later ;)
     if(bWireframe){
         terrain.drawWireframe();
     } else {
@@ -111,6 +131,7 @@ void ofApp::draw(){
     terrainShader.end();
     
     ofPopMatrix();
+    
     cam.end();
 }
 

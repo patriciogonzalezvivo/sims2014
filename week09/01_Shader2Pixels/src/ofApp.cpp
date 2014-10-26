@@ -2,26 +2,37 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
+    ofSetVerticalSync(true);
     
+    
+    //  Load our texture
+    //  in NON-ARB mode... that means their texCoords goes from 0-1
+    //
     ofDisableArbTex();
     ofLoadImage(tex, "heightmap.png");
     ofEnableArbTex();
     
+    //  Load the shader
+    //
     shader.load("","shader.frag");
     
-    fbo.allocate(ofGetWidth(), ofGetHeight());
+    //  Set up our vector field and particles
+    //
     vf.setup(ofGetWidth(), ofGetHeight(), 10);
-    fboSmall.allocate(vf.cols, vf.rows);
-    vf.setNoise();
-    
-    ofSetVerticalSync(true);
-    
     for (int i = 0; i < 1000; i++) {
         Particle p;
         p.setInit(ofPoint(ofRandom(ofGetWidth()),ofRandom(ofGetHeight())));
         particles.push_back(p);
     }
     
+    //  Alocate the FBOs
+    //  a FBO is like a screen... we can render and draw in it.
+    //  but instead of been render on the monitor is render into memory (Frame Buffer Object)
+    //  http://openframeworks.cc/documentation/gl/ofFbo.html
+    //
+    fbo.allocate(ofGetWidth(), ofGetHeight());
+    fboSmall.allocate(vf.cols, vf.rows);
+
     nDrawLayer = 1; // Original Texture;
     bDrawVield = true;
 }
@@ -33,7 +44,6 @@ void ofApp::update(){
     int height = ofGetHeight();
     
     //  Render our shader into an FBO
-    //  http://openframeworks.cc/documentation/gl/ofFbo.html
     //
     fbo.begin();
     ofClear(0);
@@ -61,7 +71,7 @@ void ofApp::update(){
     fbo.end();
     
     //  Render the FBO inside another smaller FBO
-    //  (this will lower the amount of pixels to get from the GPU)
+    //  (this will lower the amount of pixels to get from the GPU) ;)
     //
     fboSmall.begin();
     ofClear(0);
@@ -69,7 +79,7 @@ void ofApp::update(){
     fbo.draw(0,0,fboSmall.getWidth(),fboSmall.getHeight());
     fboSmall.end();
     
-    //  Get those pixels!
+    //  Get those pixels from the GPU!
     //
     ofFloatPixels pixels;
     fboSmall.readToPixels(pixels);
@@ -108,16 +118,20 @@ void ofApp::draw(){
     
     ofSetColor(255);
     if(nDrawLayer == 0){
-        
+        // Don't draw nothing
     } else if (nDrawLayer == 1){
+        //  Draw the heightmap
         tex.draw(0,0,ofGetWidth(),ofGetHeight());
     } else if (nDrawLayer == 2){
+        //  Draw the computed normals
         fbo.draw(0, 0);
     } else if (nDrawLayer == 3){
+        //  Draw the scaled normal texture
         fboSmall.draw(0,0,ofGetWidth(),ofGetHeight());
     }
     
     if(bDrawVield){
+        //  Draw the vector field
         vf.draw();
     }
     
@@ -129,7 +143,11 @@ void ofApp::draw(){
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
+    
+    //  Reload the shader
+    //
     shader.load("","shader.frag");
+    
     if (key == ' ') {
         nDrawLayer = (nDrawLayer+1)%4;
     } else if ( key == 'v'){
