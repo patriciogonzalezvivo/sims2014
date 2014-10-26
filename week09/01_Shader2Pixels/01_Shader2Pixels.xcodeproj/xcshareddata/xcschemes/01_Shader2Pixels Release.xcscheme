@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-               BuildableName = "C_Mesh.app"
-               BlueprintName = "C_Mesh"
-               ReferencedContainer = "container:C_Mesh.xcodeproj">
+               BuildableName = "01_Shader2Pixels.app"
+               BlueprintName = "01_Shader2Pixels"
+               ReferencedContainer = "container:01_Shader2Pixels.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "C_Mesh.app"
-            BlueprintName = "C_Mesh"
-            ReferencedContainer = "container:C_Mesh.xcodeproj">
+            BuildableName = "01_Shader2Pixels.app"
+            BlueprintName = "01_Shader2Pixels"
+            ReferencedContainer = "container:01_Shader2Pixels.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "C_Mesh.app"
-            BlueprintName = "C_Mesh"
-            ReferencedContainer = "container:C_Mesh.xcodeproj">
+            BuildableName = "01_Shader2Pixels.app"
+            BlueprintName = "01_Shader2Pixels"
+            ReferencedContainer = "container:01_Shader2Pixels.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "C_Mesh.app"
-            BlueprintName = "C_Mesh"
-            ReferencedContainer = "container:C_Mesh.xcodeproj">
+            BuildableName = "01_Shader2Pixels.app"
+            BlueprintName = "01_Shader2Pixels"
+            ReferencedContainer = "container:01_Shader2Pixels.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
