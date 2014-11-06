@@ -18,6 +18,7 @@ public:
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
     
-    ofEasyCam cam;
-    ofMesh mesh;
+    ofEasyCam   cam;
+    ofMesh      mesh;
+    ofLight     light;
 };
