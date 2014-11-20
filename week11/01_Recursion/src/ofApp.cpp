@@ -11,7 +11,9 @@ void ofApp::setup(){
 void ofApp::drawDiamond(float x, float y, float size ){
     ofSetRectMode( OF_RECTMODE_CENTER );
     
-    if( size > 16 ){
+    //  Recursion
+    //
+    if( size > 16 ){    // This is the exit
         drawDiamond( x + size/2, y, size/2 );
         drawDiamond( x - size/2, y, size/2 );
         
@@ -19,11 +21,13 @@ void ofApp::drawDiamond(float x, float y, float size ){
         drawDiamond( x, y - size/2, size/2 );
     }
     
+    //  What it actually draw
+    //
     ofPushMatrix();{
         ofTranslate( x, y);
         ofRotate( 45 );
         ofRect( 0, 0, size, size );
-    }ofPopMatrix();
+    } ofPopMatrix();
     
 }
 

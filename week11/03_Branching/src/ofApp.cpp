@@ -13,19 +13,25 @@ void ofApp::update(){
 
 void ofApp::branch( float length ) {
     ofPushMatrix();
-    ofLine( ofVec2f(0,0), ofVec2f(0, -length) );
+    ofLine( ofVec2f(0,0), ofVec2f(0, -length) );    // LINE
     ofTranslate( 0, -length );
     
     generation++;
     
     float noise = ofNoise( generation, ofGetElapsedTimef() * 0.1 );
     
-    if( length > 2 ){
+    if( length > 2 ) // The EXIT !!
+    {
+        
+        //  Branch 1
+        //
         ofPushMatrix();{
             ofRotate( 45 + theta + noise * 10-5 );
             branch( length * 0.666 );
         }ofPopMatrix();
         
+        //  Branch 2
+        //
         ofPushMatrix();{
             ofRotate( -45 + theta - noise * 10-5 );
             branch( length * 0.666 );

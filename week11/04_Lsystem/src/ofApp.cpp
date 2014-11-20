@@ -5,31 +5,28 @@ void ofApp::setup(){
     
     
     // sierpinski
-    vector<Rule> myRules;
-    myRules.push_back( Rule('F',"F--F--F--G") );
-    myRules.push_back( Rule('G',"GG") );
+//    vector<Rule> myRules;
+//    myRules.push_back( Rule('F',"F--F--F--G") );
+//    myRules.push_back( Rule('G',"GG") );
+//    
+//    system.setup("F--F--F", myRules);
+//    turtle.setup( 10, 60 );
+//    turtle.setInstructions( system.sentence );
     
-    system.setup("F--F--F", myRules);
-    turtle.setup( 10, 60 );
-    turtle.setInstructions( system.sentence );
     
-    /*
     // boxes
-    vector<Rule> myRules;
-    myRules.push_back( Rule('F',"F[F]-F+F[--F]+F-F") );
-    system.setup( "F-F-F-F", myRules );
-    turtle.setup( 10, 90 );
-    turtle.setInstructions( system.sentence );
-    */
+//    vector<Rule> myRules;
+//    myRules.push_back( Rule('F',"F[F]-F+F[--F]+F-F") );
+//    system.setup( "F-F-F-F", myRules );
+//    turtle.setup( 10, 90 );
+//    turtle.setInstructions( system.sentence );
     
-    /*
     // tree
     vector<Rule> myRules;
     myRules.push_back( Rule('F',"FF+[+F-F-F]-[-F+F+F]") );
     system.setup("F", myRules);
     turtle.setup( 10, 25 );
     turtle.setInstructions( system.sentence );
-    */
     
     ofBackground( 0 );
 }

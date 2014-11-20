@@ -186,8 +186,8 @@
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
-				7a8673474b20cfa35dca0f936eed2c0d /* KochLine.cpp */,
 				bdb2ec5cabb18e49edf031e50a6e2dee /* KochLine.h */,
+				7a8673474b20cfa35dca0f936eed2c0d /* KochLine.cpp */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
