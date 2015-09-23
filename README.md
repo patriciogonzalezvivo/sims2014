@@ -1,8 +1,3 @@
- 
-	**Creative Coding** - 7040 - PGTE 5566 - B
-	
-	Wednesdays between 7:00 pm - 9:40 pm	 at 66 5th Ave 716	 
-
 Welcome to **Simulation Studio FALL 2014**, [here](https://github.com/patriciogonzalezvivo/sims2014) you will find the class material.
 
 ## Course Description
@@ -18,7 +13,7 @@ Several case studies inspired by nature (Flocking Systems, L-Systems, Gray Scott
 
 Students will complete field trips and collect observations of natural patterns and phenomena. They will present a midterm and final project, applying learned concepts to create computer programs. Both projects will include students' meticulous research on their natural references. 
 
-![camera obscura](http://www.teamlocals.co.uk/cms/wp-content/uploads/2014/03/Camera-Obscura-Portsmouth-Natural-History-Museum-Cumberland-House.jpeg)
+![camera obscura](http://patriciogonzalezvivo.com/2014/skylines/images/camera-obscura.jpg)
 
 ## Course Outline
 
